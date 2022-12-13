@@ -65,7 +65,7 @@ const PlaceDetail = ({ place }) => {
               <iframe id="existing-iframe-example"
               width="600" height="360"
               src={place.videos[0]}
-              frameborder="0"
+              frameBorder="0"
               style={{ marginRight: '5px' }}
               allowFullScreen
               ></iframe>
@@ -91,7 +91,7 @@ const PlaceDetail = ({ place }) => {
                <iframe id="existing-iframe-example"
                width="600" height="360"
                src={place.videos[1]}
-               frameborder="0"
+               frameBorder="0"
                style={{ marginRight: '5px' }}
                allowFullScreen
                ></iframe>
@@ -118,7 +118,7 @@ const PlaceDetail = ({ place }) => {
                <iframe id="existing-iframe-example"
                width="600" height="360"
                src={place.videos[2]}
-               frameborder="0"
+               frameBorder="0"
                style={{ marginRight: '5px' }}
                allowFullScreen
                ></iframe>
