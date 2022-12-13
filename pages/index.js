@@ -49,7 +49,7 @@ const Home = () => {
 
   const [popupInfo, setPopupInfo] = useState(null);
 
-  const TOKEN = 'pk.eyJ1Ijoic3VhaG1hZGkiLCJhIjoiY2xiZGdiZzQwMDExajN3cnlrNHN1azdneCJ9.rMrYJqhB1fD3-dVMeGr45w'; // Set your mapbox token here
+  let TOKEN = process.env.NEXT_PUBLIC_ENV_VARIABLE // Set your mapbox token here
 
   const onClick = event => {
     {event.features[0]?.properties &&
