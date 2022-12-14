@@ -28,8 +28,8 @@ export const unclusteredPointLayer: LayerProps = {
   filter: ['!', ['has', 'point_count']],
   paint: {
     'circle-color': '#11b4da',
-    'circle-radius': 2,
-    'circle-stroke-width': 1,
+    'circle-radius': 10,
+    'circle-stroke-width': 5,
     'circle-stroke-color': '#fff'
   }
 };
